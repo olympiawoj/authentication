@@ -9,6 +9,7 @@ import {Auth0Context} from './contexts/auth0-context'
 
 export default function App() {
   const auth0 = useContext(Auth0Context)
+  console.log(auth0)
   
   // useEffect(()=>{
 
